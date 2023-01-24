@@ -1,0 +1,12 @@
+.profile-pic{
+  border-radius:360px;
+  width: 20vw;
+}
+.main {
+  padding: 20px;
+  text-align: center;
+  margin-top: 10%;
+}
+body{
+  overflow-x: hidden;
+}

@@ -1,0 +1,76 @@
+
+  .sidebar {
+    width:max(343px, 20vw);
+    background:rgb(157 195 143 / 66%);
+    height:100vh;
+    overflow: scroll;
+  } 
+  
+  .sidebar .side-header {
+    margin:0 auto;
+    width:max-content;
+    background-repeat:no-repeat;
+    background-position:right center;
+    background-size:auto 90%;
+  }
+  
+  .side-header h1,.side-header p {
+    margin:0;
+    color:white;
+  }
+  
+  .side-header p {
+    text-align:right;
+  }
+  
+  .sidenav {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:80%;
+    position:relative;
+    margin-top: 0.3em;
+  }
+  
+  .leaderboard__profile img{
+    border-radius: 50%;
+    width: 45px;
+  }
+
+  .leaderboard__profile{
+    padding: 12px;
+    cursor: pointer;
+  }
+
+  .leaderboard__profile:hover {
+    background-color: rgb(255, 255, 214);
+  }
+
+    .head_profile img{
+    border-radius: 50%;
+    width: 45px;
+  }
+
+  .head_profile{
+    padding: 12px;
+    cursor: pointer;
+  }
+
+  .head_profile:hover {
+    background-color: rgb(255, 255, 214);
+  }
+
+  
+    .login-user-profile img{
+    border-radius: 50%;
+    width: 45px;
+  }
+
+  .login-user-profile{
+    padding: 12px;
+    cursor: pointer;
+  }
+
+  .login-user-profile:hover {
+    background-color: rgb(255, 255, 214);
+  }

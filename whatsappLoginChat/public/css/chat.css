@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+section.chat_section{
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px;
+}
+
+
+.message_area{
+    height: 490px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    background: #f1ecec !important;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+}
+
+.message
+{
+    padding: 0px 8px 13px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+
+.message h4{
+    position: relative;
+    top: -21px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
+.message p{
+    position: relative;
+    top: 4px;
+    left: 0;
+    font-size: 12px;
+}
+
+ form {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    form input {
+      width: 90%;
+    }
+    #submitButton {
+      width: 9%;
+    }
+    .time {
+        color: #201e1e;
+        text-align: right;
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+
+    .message {
+      display: inline;
+      font-size: 12px;
+    }
+    #messages {
+        list-style-type: none;
+    }
+    .me {
+      font-family: sans-serif, "Courier New", Courier, monospace;
+      position: relative;
+      top: -14px;
+      color: black;
+      margin-top: 25px;
+      font-size: 12px;
+      line-height: 0px;
+    }
+    .you {
+      font-family: sans-serif, "Courier New", Courier, monospace;
+      position: relative;
+      top: -14px;
+      color: black;
+      margin-top: 25px;
+      font-size: 12px;
+      line-height: 0px;
+
+    }
+    .yourDiv {
+      position: relative;
+      right: 10;
+      width: 50%;
+      background: #8f8BE8;
+      color: #fff;
+      border-radius: 5px;
+      line-height: 11px;
+    }
+    .myDiv {
+      position: relative;
+      left: 40%;
+      width: 50%;
+      background: #e9eafd;
+      color: #787986;
+      border-radius: 5px;
+      line-height: 11px;
+    }
